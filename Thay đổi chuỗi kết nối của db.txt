@@ -1,0 +1,6 @@
+add connection - ghi server name - encrypt (optional(false)) - chọn trust server certificate - chọn database - sao chép đường dẫn connection String dán vào chuỗi kết nối mới.
+
+Đúng (metadata=res://*/Models.ModelThueXeMay.csdl|res://*/Models.ModelThueXeMay.ssdl|res://*/Models.ModelThueXeMay.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=LAPTOP-7FNPPK5P;Initial Catalog=RENT_MOTOR;Integrated Security=True;Encrypt=False
+)
+
+Sai (metadata=res://*/Models.ModelThueXeMay.csdl|res://*/Models.ModelThueXeMay.ssdl|res://*/Models.ModelThueXeMay.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=LAPTOP-7FNPPK5P;Initial Catalog=RENT_MOTOR;Integrated Security=True;Encrypt=True;Trust Server Certificate=True)
